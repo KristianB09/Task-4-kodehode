@@ -157,5 +157,17 @@ footer button:hover {
   cursor: pointer;
 }
 
-footer svg {
+.textBox > * {
+  animation: slide-in 1s both;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
