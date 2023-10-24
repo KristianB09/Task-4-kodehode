@@ -121,3 +121,35 @@ header {
 .textButton p {
   width: 80%;
 }
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #434343;
+}
+
+footer button {
+  font-size: 50px;
+  color: #f0f0f0;
+  background-color: #434343;
+  border: 2px solid #f0f0f0;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+footer button:hover {
+  background-color: #f0f0f0;
+  color: #434343;
+  cursor: pointer;
+}
+
+footer svg {
+}
