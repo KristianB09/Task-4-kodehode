@@ -48,6 +48,7 @@ header {
 .row1 {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .containerFlex img {
@@ -103,6 +104,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .textButton {
@@ -190,12 +192,45 @@ footer button:hover {
     justify-content: center;
   }
   .Klippe img {
-    width: 100%;
-    height: 100vh;
-    border-radius: 0;
-    object-fit: cover;
+    display: none;
+  }
+}
+
+@media (max-width: 725px) {
+  .textBox {
+    width: 500px;
+    height: 265, 19px;
+    left: 0px;
+    text-align: center;
   }
 
+  .textBox h1 {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .textBox p {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
   .textBox {
+    width: 300px;
+    height: 265px;
+    left: 0px;
+    text-align: center;
+  }
+
+  .textBox h1 {
+    margin-left: 0px;
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  .textBox p {
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 20px;
   }
 }
