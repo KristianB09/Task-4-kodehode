@@ -212,6 +212,10 @@ footer button:hover {
   .textBox p {
     margin-left: 0px;
   }
+
+  .buttons {
+    width: 90%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -232,5 +236,19 @@ footer button:hover {
     margin-left: 0px;
     font-size: 20px;
     margin-top: 20px;
+  }
+
+  .buttons {
+    width: 90%;
+  }
+}
+
+@media (max-width: 360px) {
+  .containerFlex img {
+    width: 300px;
+  }
+
+  .containerFlex {
+    width: 300px;
   }
 }
